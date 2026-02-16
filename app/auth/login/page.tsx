@@ -60,6 +60,15 @@ export default function LoginPage() {
             {"Don't have an account? "}
             <Link href="/auth/sign-up" className="text-primary hover:underline">Sign up</Link>
           </p>
+          <div className="mt-4 rounded-lg border border-blue-200 bg-blue-50 px-4 py-3 dark:border-blue-900/50 dark:bg-blue-950/20">
+            <p className="text-center text-xs leading-relaxed text-blue-700 dark:text-blue-400">
+              🔒 Use your personal email, or protect your identity with a{" "}
+              <a href="https://temp-mail.org" target="_blank" rel="noopener noreferrer" className="font-semibold underline underline-offset-2 hover:text-blue-900 dark:hover:text-blue-300">
+                temporary email
+              </a>
+              {" "}— we only need it for sign-up confirmation.
+            </p>
+          </div>
         </CardContent>
       </Card>
     </div>
