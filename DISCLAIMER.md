@@ -22,7 +22,7 @@ This application uses the following third-party services. Their respective terms
 | Service | Purpose | Terms |
 |---|---|---|
 | [Supabase](https://supabase.com) | Database, Authentication | [Terms of Service](https://supabase.com/terms) |
-| [Vercel](https://vercel.com) | Hosting (if deployed) | [Terms of Service](https://vercel.com/legal/terms) |
+| [Vercel](https://vercel.com) | Hosting  | [Terms of Service](https://vercel.com/legal/terms) |
 
 ## Limitation of Liability
 
