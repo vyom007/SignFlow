@@ -44,7 +44,7 @@ A modern, full-stack electronic signature application built with **Next.js 16**,
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/signflow.git
+git clone https://github.com/vyom007/signflow.git
 cd signflow
 ```
 
@@ -139,4 +139,4 @@ Contributions are welcome! Please open an issue first to discuss what you'd like
 
 **Vyom Sagar** — [vyomsagar123@gmail.com](mailto:vyomsagar123@gmail.com)
 
-Project Link: [https://github.com/<your-username>/signflow](https://github.com/<your-username>/signflow)
+Project Link: [https://github.com/vyom007/signflow](https://sign-flow-delta.vercel.app/)
