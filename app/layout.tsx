@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Toaster } from '@/components/ui/sonner'
+import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 import '@/lib/env' // validate required env vars at startup
 import './globals.css'
@@ -22,6 +24,8 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         {children}
         <Toaster richColors position="top-right" />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
